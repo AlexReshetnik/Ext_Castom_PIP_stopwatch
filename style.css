@@ -1,0 +1,52 @@
+#myCanvas {
+  background-color: rgba(208, 3, 3, 0.236);
+}
+
+*:picture-in-picture {
+  box-shadow: 0 15 0 15px red;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #263238;
+}
+
+.button-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button-container button {
+  padding: 12px 40px;
+  background-color: #ffffff;
+  border: 0;
+  box-shadow: none;
+  margin: 0 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.button-container button:first-child {
+  background-color: #2646fe;
+  color: #FFFFFF;
+}
+.button-container button:first-child:hover {
+  background-color: #304FFE;
+}
+.button-container button:last-child {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.error {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}/*# sourceMappingURL=style.css.map */

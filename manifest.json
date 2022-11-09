@@ -1,0 +1,22 @@
+{
+    "name": "Stopwatch",
+    "description": "Stopwatch",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Your - ToDo",
+        "default_icon": {
+            "16": "stopwatch.png"
+        }
+    },
+    "permissions": [
+        "alarms",
+        "notifications",
+        "storage","activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+
+}

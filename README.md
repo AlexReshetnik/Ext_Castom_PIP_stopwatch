@@ -4,7 +4,8 @@ During the development of projects, it was often necessary to copy and peek at p
 I saved everything on the PC, and in git everything was in one repository (AllProjectForStyding), now
 I sorted everything and created a separate repository
 
+This is an extension for chome
 
-problems appeared: when closing the extension, crypt stops and pip closes
+Problems appeared: when closing the extension, crypt stops and pip closes
 
-at the moment the proct is not working properly
+At the moment the proct is not working properly
